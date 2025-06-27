@@ -18,11 +18,11 @@ namespace OrderManagementSystem.Services.Implementations
             var order = await _context.Orders.FindAsync(orderId);
             if (order == null)
             {
-                throw new InvalidOperationException("Order not found");
+                throw new InvalidOperationException("Order Not Found");
             }
             if (order.IsPaid)
             {
-                throw new InvalidOperationException("Order already paid");
+                throw new InvalidOperationException("Order Already Paid");
             }
 
             order.IsPaid = true;

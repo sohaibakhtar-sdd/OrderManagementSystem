@@ -26,7 +26,7 @@ namespace OrderManagementSystem.Controllers
             {
                 return Ok(new
                 {
-                    message = "User fetched successfully",
+                    message = "User Fetched Successfully",
                     data = userById
                 });
             }

@@ -27,7 +27,7 @@ namespace OrderManagementSystem.Controllers
             try
             {
                 await _IPaymentService.ProcessPaymentAsync(orderId);
-                return Ok("Payment successful");
+                return Ok("Payment Successful");
             }
             catch (InvalidOperationException ex)
             {

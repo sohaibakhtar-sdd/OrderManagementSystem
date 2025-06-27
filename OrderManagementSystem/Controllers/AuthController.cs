@@ -19,11 +19,11 @@ namespace OrderManagementSystem.Controllers
         {
             if (!_IAuthService.IsValidPassword(dto.Password))
             { 
-                return BadRequest("Weak password");
+                return BadRequest("Weak Password");
             }
             if (await _IAuthService.IsEmailRegisteredAsync(dto.Email))
             {
-                return Conflict("Email already exists");
+                return Conflict("Email Already Exists");
             }
 
              var data =await _IAuthService.RegisterAsync(dto);
