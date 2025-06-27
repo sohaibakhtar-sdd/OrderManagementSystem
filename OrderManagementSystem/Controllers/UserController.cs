@@ -1,9 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using OrderManagementSystem.DTOs;
-using OrderManagementSystem.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 using OrderManagementSystem.Services.Interfaces;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace OrderManagementSystem.Controllers
 {

@@ -1,8 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OrderManagementSystem.DTOs;
-using OrderManagementSystem.Models;
-using OrderManagementSystem.Services.Implementations;
 using OrderManagementSystem.Services.Interfaces;
 
 namespace OrderManagementSystem.Controllers

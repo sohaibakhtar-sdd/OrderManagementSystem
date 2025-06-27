@@ -1,9 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
-using OrderManagementSystem.Data;
+﻿using OrderManagementSystem.Data;
 using OrderManagementSystem.DTOs;
 using OrderManagementSystem.Models;
 using OrderManagementSystem.Services.Interfaces;
-using System.Text;
 
 namespace OrderManagementSystem.Services.Implementations
 {
